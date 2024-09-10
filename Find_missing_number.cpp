@@ -13,12 +13,13 @@ int missingNumber(vector<int> &nums)
         res ^= i;
         res ^= nums[i];
     }
+    res ^= n + 1;
     return res;
 }
 
 int main()
 {
-    vector<int> nums = {0, 1, 3, 4};
+    vector<int> nums = {1, 2, 4, 5};
     cout << missingNumber(nums) << endl;
     return 0;
 }
