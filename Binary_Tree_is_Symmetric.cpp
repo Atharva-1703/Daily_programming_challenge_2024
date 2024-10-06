@@ -6,12 +6,6 @@ struct Node
     Node *left;
     Node *right;
     int data;
-    /*************  ✨ Codeium Command ⭐  *************/
-    /**
-     * Node constructor
-     * @param data the integer data of the node
-     */
-    /******  0e14dc46-ef09-499e-bff1-1da8082cedf5  *******/
     Node(int data)
     {
         this->data = data;
